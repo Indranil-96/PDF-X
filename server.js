@@ -2,15 +2,15 @@
 const express=require('express');
 const path= require('path');
 const ejs= require('ejs');
-const port=2000;
+const port=2500;
 
 
 
 const app = express();
 
 //Middleware
-app.set('view engien','ejs');
-app.use(express.static(path.join(__dirname,'view')));
+app.set('view engine', 'ejs');
+app.use(express.static(path.join(__dirname,'views')));
 
 
 //Router
