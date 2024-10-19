@@ -2,7 +2,6 @@
   "name": "pdf-merger-app",
   "version": "1.0.0",
   "description": "'PDF merger app using Node.js'",
-  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
